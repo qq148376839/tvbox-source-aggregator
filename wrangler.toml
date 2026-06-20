@@ -1,4 +1,4 @@
-name = "tvbox-source-aggregator"
+name = "tvbox-source-aggregator1"
 main = "src/cf-entry.ts"
 compatibility_date = "2024-12-30"
 compatibility_flags = ["nodejs_compat"]
