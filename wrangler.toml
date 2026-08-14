@@ -14,11 +14,11 @@ crons = ["0 * * * *"]  # 每小时触发，实际执行频率由 Admin 设置的
 
 [[kv_namespaces]]
 binding = "KV"
-id = "0a954fa3ef4847a1911d39eab5b3dd0b"
-preview_id = "01be699a3f2e4e85a7b907ad1ce87c95"
+id = "2787ef3948884822af1402c7174e29a8"
+preview_id = "2787ef3948884822af1402c7174e29a8"
 
 [vars]
 SPEED_TIMEOUT_MS = "5000"   # 源地址延迟阈值（毫秒）
 SITE_TIMEOUT_MS = "3000"    # 站点 API 延迟阈值（毫秒）
 FETCH_TIMEOUT_MS = "5000"   # 抓取配置 JSON 超时（毫秒）
-WORKER_BASE_URL = "https://tvbox.rio.edu.kg"  # CF 边缘代理依赖此配置（JAR/MacCMS/直播源代理）
+WORKER_BASE_URL = "https://tvbox.maofree.eu.org"  # CF 边缘代理依赖此配置（JAR/MacCMS/直播源代理）
